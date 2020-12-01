@@ -1,0 +1,10 @@
+n = int(input())
+k = n-1
+s = 1
+for i in range (n)
+ print("*(k*2),end = "")
+ for j in range(i+1):
+  print(s,end = "")
+  s+=1
+ print()
+ k-=1;
